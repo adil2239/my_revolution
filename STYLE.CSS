@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
+body {
+  background-color: #2b3033;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  padding: 50px;
+  color: #fff;
+  font-size: 48px;
+}
+
+.box {
+ 
+  width: 100px;
+  height: 100px;
+  background-color: #4861ec;
+  box-shadow: 0 0 0px 15px #353f6d;
+  margin: 50px;
+  display: inline-block;
+  border-radius: 50%; 
+  transform: all;
+  translate: 200px;
+  animation-name: trip;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+.box:hover{
+  
+transition: all;
+transform: 200px;
+trans
+}
+
+@keyframes trip{
+  0%{
+    transform: translateX(100px);
+  }
+
+  50%{
+    translate: translatey(100px);
+  }
+}
